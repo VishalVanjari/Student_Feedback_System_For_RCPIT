@@ -1,15 +1,15 @@
 ﻿# Student_Feedback_System_For_RCPIT
  
 Table of Contents : 
-      1. Introduction
-      2. Features
-      3. Technologies Used
-      4. Installation
-      5. Usage
-      6. Screenshots
-      7. Contributing
-      8. License
-      9. Contact
+1. Introduction
+2. Features
+3. Technologies Used
+4. Installation
+5. Usage
+6. Screenshots
+7. Contributing
+8. License
+9. Contact
 
       
 1. Introduction
@@ -90,11 +90,9 @@ Student Feedback Form
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
 Vishal Vanjari
 Email: officialvishalvanjari@gmail.com
 GitHub: github.com/VishalVanjari
-LinkedIn: linkedin.com/VishalVanjari
+LinkedIn: https://www.linkedin.com/in/vishal-vanjari-bb64b8228/
