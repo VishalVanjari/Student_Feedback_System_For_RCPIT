@@ -1,0 +1,714 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+	font-family: Arial, sans-serif;
+	color:#ccc ;
+	
+  }
+   /*nav*/
+  /*nav*/
+  #content-1 {
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+	
+}
+
+#content-1:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Shadow increases on hover */
+}
+
+/* Additional styles for improved compatibility */
+#content-1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+  .nav-container {
+	position: fixed; /* Set the position to fixed to stick it to the top */
+	top: 0; /* Stick it to the top of the viewport */
+	left: 0;
+	right: 0;
+	display: flex;
+	background-color: rgba(46, 43, 43, 0.7);
+	width: 100%;
+	min-height: auto;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: auto;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 98%);
+	box-shadow: rgba(44, 163, 242, 0.35) 0px 5px 15px, rgba(5, 6, 8, 0.5) 5px 10px 15px;
+	z-index: 1	; /* Ensure that nav is above the intro */
+  }
+  
+/*logo*/
+  .logo {
+    margin-right: 20px; /* Add margin to separate the logo from the text */
+}
+/*******intro***********/
+#intro {
+	width: 100%;
+	height: 100vh	; /* Set the height to 100% of the viewport height */
+	background: url(rcpit-college-building_new.jpg) top center;
+	background-size: cover;
+	overflow:auto;
+	position: relative;
+  }
+  #intro1 {
+	width: 100%;
+	height: 100vh	; /* Set the height to 100% of the viewport height */
+	background: url(rcpit-college-building_new.jpg) top center;
+	background-size: cover;
+	overflow:auto;
+	position: relative;
+  }
+#intro:before {
+	content: "";
+	/* background: rgba(6, 12, 34, 0.8); */
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+  }
+/* Style for navigation buttons */
+.nav-button {
+	text-decoration: none;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	background-image: linear-gradient(to bottom, hsl(203, 100%, 50%), #0055ff);
+	color: #0d0e0d;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	display: inline-block;
+  }
+  
+  /* Hover effect for navigation buttons */
+  .nav-button:hover {
+	background-image: linear-gradient(to bottom, #ffd000, hsl(63, 100%, 50%));
+	transform: translateY(-2px);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+/* Style for the container of navigation links */
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Style for the container of navigation links */
+.nav-link-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh; /* Set the container's height to 50% of the viewport height */
+	width: 100%; /* Cover the entire width of the viewport */
+	max-width: 400px; /* Set a maximum width */
+	margin: 10% auto 0; /* Adjust the margin for centering */
+	padding: 20px; /* Add padding for better appearance */
+	border: 8px solid hsl(40, 11%, 95%);
+	border-radius: 20px; /* Adjust the border radius */
+	box-shadow: 0 0 20px rgba(42, 41, 41, 0.4);
+	position: relative;
+	z-index: 1; /* Lower z-index to place behind the navigation container */
+  }
+/*************content**************/
+#content {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  background: rgba(8, 3, 52, 0.4); /* Change the background transparency here */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: hsl(48, 14%, 93%);
+  background-image: linear-gradient(163deg, rgba(5, 1, 41, 0.4) 30%, #02023df1 70%);
+  color: #ffffff;
+  box-shadow: 1px 1px 10px 1px #ffffff;
+  transition: all 0.3s ease; /* Add smooth transition for position change */
+  max-height: 70vh; /* Set a maximum height for scrollability */
+  overflow-y: auto; 
+  }
+  #content-t {
+	max-width: fit-content;
+	margin: 25px;
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	background: linear-gradient(163deg, rgba(8, 3, 52, 0.4) 20%, #02023df1 80%), rgba(8, 3, 52, 0.4);
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+	max-height: 80vh;
+	overflow-y: auto;
+	line-height: 1.5;
+  }
+  
+
+/****************form******************/
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5em;
+	border-radius: 25px;
+	padding: 0.6em;
+	border: none;
+	width: 70%;
+	outline: none;
+	color: rgb(6, 5, 5);
+	background-color: #f4f4f0;
+	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+.input-field {
+	background: none;
+	border: none;
+	outline: none;
+	width:auto;
+	color: rgb(14, 14, 14);
+	text-align: center;
+	text-decoration: solid ;
+  }
+  
+.button1 {
+	padding: 0.5em;
+	padding-left: 1.1em;
+	padding-right: 1.1em;
+	border-radius: 50%; 
+	margin-right: 0.5em;
+	border: none;
+	outline: none;
+	transition: .4s ease-in-out;
+	background-image: linear-gradient(163deg, #fa9805 20%, #ff2365 80%);
+	color: rgb(255, 255, 255);
+  }
+.button1:hover {
+	background-image: linear-gradient(163deg, #518ffa 20%,#f422aef1 80%);
+	color: #ffffff;
+	box-shadow: 1px 1px 10px 1px #ffffff;
+  }
+.form-group {
+    display: flex; /* Use flexbox to arrange label and select horizontally */
+    align-items: center; /* Vertically align items to the center */
+    gap: 10px; /* Add some spacing between label and select */
+	color: white;
+	font-weight:bold;
+	width: 50%;
+}
+.form-grp {
+    display: flex; /* Use flexbox to arrange label and select horizontally */
+    align-items: center; /* Vertically align items to the center */
+    gap: 10px; /* Add some spacing between label and select */
+	color: #0d0e0d;
+	font-weight:bold;
+	width: auto;
+}
+
+
+
+/* Style for the label (optional) */
+.form-group label {
+    font-weight: bold;
+    width: 120px; /* Adjust the width as needed */
+}
+
+/* Style for the select (optional) */
+.form-group select {
+    flex: 1; /* Allow the select to expand and fill available space */
+    padding: 8px; /* Add padding for better appearance */
+    border: 1px solid #cccccc; /* Add a border for better visibility */
+    border-radius: 25px; /* Add rounded corners */
+    font-size: 16px;
+    background-color: hsl(60, 18%, 96%);
+    transition: border-color 0.3s ease;
+}
+
+/* Two-column label and dropdown layout */
+  label {
+	display: inline-block;
+	width: 150px; /* Adjust the width as needed */
+	font-size: 16px;
+	color: #f7f728;
+	margin-bottom: 8px;
+  }  
+  /* Style select (dropdown) elements */
+  select {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	width: 35%;
+	gap: 0.5em;
+	border-radius: 25px;
+	padding: 0.6em;
+	border: none;
+	outline: none;
+	color: rgb(6, 5, 5);
+	background-color: #f5f4e5;
+	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  
+  
+  /* Submit and Back buttons */
+  input[type='submit'],
+  input[type='button'] {
+	background-color: #ff8c00;
+	color: #fff;
+	border: none;
+	padding: 12px 24px;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	display: inline-block;
+	margin-right: 10px; /* Add spacing between buttons */
+  }
+  
+ 
+  
+  /* Link styles */
+  a.link, a.button {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  a.link:hover, a.button:hover {
+	color: #ff8c00;
+  }
+  
+/* General table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: black; /* Set text color to black */
+    border: 1px solid black; /* Set border color to black */
+}
+
+th, td {
+    border: 1px solid black; /* Set border color to black */
+    padding: 7px;
+    text-align: center;
+    color: black; /* Set text color to black */
+}
+
+/* Header row styles */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: auto;
+}
+
+.rcpitlogo{
+	width: 70px;
+}
+
+/* Styles for the first table */
+table:first-child {
+    margin-bottom: 20px;
+}
+
+table:first-child td {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the second table */
+table:last-child {
+    margin-top: 20px;
+}
+
+/* Styling for the 'Overall Feedback' row */
+table:last-child tr:last-child {
+    background-color: #ffe5e5; /* Light red background */
+}
+
+
+
+  
+  /* Additional styles for questions and options */
+  .tddd {
+	margin: 20px 0;
+	text-align: left;
+  }
+  
+  .tddd span.text {
+	font-size: 18px;
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: #e6e6eb;
+  }
+  
+  /* Style radio buttons for options */
+  .tddd input[type='radio'] {
+	margin-right: 10px;
+	vertical-align: middle;
+	color: #090650;
+  }
+  
+  /* Add some spacing and styling to horizontal lines */
+  hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #ccc;
+  }
+  
+  /* Center the submit and back buttons */
+  form input[type='submit'],
+  form input[type='button'] {
+	display: inline-block;
+	margin: 0;
+  }
+  
+  /* Faculty details box styles */
+  #faculty-details {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5em;
+	border-radius: 25px;
+	padding: 0.6em;
+	border: none;
+	outline: none;
+	color: rgb(6, 5, 5);
+	background-color: #f6f3ec;
+	
+  }
+  
+  .details-left {
+	flex: 1;
+  }
+  
+  .details-right {
+	flex: 0 0 150px; /* Adjust the width as needed */
+	text-align: center;
+  }
+  
+  #faculty-details .tr {
+	display: flex;
+	margin-bottom: 10px;
+  }
+  
+  #faculty-details .td {
+	flex: 1;
+  }
+  
+  #faculty-details label {
+	font-size: 16px;
+	color: #333;
+	display: block;
+	margin-bottom: 8px;
+  }
+  
+  #faculty-details img {
+	max-width: 100%;
+	height: 120px;
+	width: 120px;}
+  
+  /****************************************************8888888*/
+  .option {
+	position: relative;
+	width:200px;
+	height: 36px;
+	margin-left: 30px;
+	display:flexbox;
+	text-align: center;
+	justify-content: center;
+	flex-direction: row;
+	color: #15c7ff;
+	transition: .4s ease-in-out;
+	/* background-image: linear-gradient(163deg, #f1f89b 20%, #ec9bc9 80%); */
+	cursor: pointer;
+  }
+  .input {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	appearance: none;
+	cursor: pointer;
+  }
+  .option input[type='radio'] {
+	margin-right: 20px;
+	vertical-align: middle;
+  }
+ 
+  /**************CARDS*******************/
+/* Adjustments for .ag-format-container */
+.ag-format-container {
+	max-width: 1142px; /* Use max-width for better responsiveness */
+	margin: 100px auto 0; /* Center container and add top margin */
+	padding: 0 20px; /* Add padding to the sides */
+  }
+  
+  /* Improvements for .ag-courses_box */
+  .ag-courses_box {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 30px; /* Add gap between items */
+	margin-left: auto; /* Adjust margin */
+	margin-right: auto; /* Adjust margin */
+	padding: 50px 0;
+  }
+  
+  /* Improvements for .ag-courses_item */
+  .ag-courses_item {
+	flex: 0 0 calc(25% - 30px); /* Better sizing calculation with flex */
+	margin-bottom: 30px;
+	overflow: hidden;
+	border-radius: 28px;
+  }
+  
+  /* Improvements for .ag-courses-item_link */
+  .ag-courses-item_link {
+	position: relative;
+	display: block;
+	padding: 30px 20px;
+	background-color: #121212;
+	overflow: hidden;
+	text-decoration: none; /* Moved text-decoration to avoid inheritance */
+  }
+  
+  .ag-courses-item_link:hover,
+  .ag-courses-item_link:hover .ag-courses-item_date {
+	text-decoration: none;
+	color: #FFF;
+  }
+  .ag-courses-item_link:hover .ag-courses-item_bg {
+	-webkit-transform: scale(10);
+	-ms-transform: scale(10);
+	transform: scale(10);
+  }
+
+  /* Improvements for .ag-courses-item_title */
+  .ag-courses-item_title {
+	min-height: 87px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+  }
+  
+  /* Improvements for .ag-courses-item_date-box and .ag-courses-item_date */
+  .ag-courses-item_date-box {
+	font-size: 18px;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+  }
+  
+  .ag-courses-item_date {
+	font-weight: bold;
+	color: #f9b234;
+	transition: color 0.5s ease; /* Consolidated transition */
+  }
+  
+  /* Improvements for .ag-courses-item_bg */
+  .ag-courses-item_bg {
+	height: 128px;
+	width: 128px;
+	background-color: #f9b234;
+	position: absolute;
+	top: -75px;
+	right: -75px;
+	border-radius: 50%;
+	transition: transform 0.5s ease; /* Simplified transition */
+  }
+  
+  /* Additional styles for nth-child */
+  .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+	background-color: #3ecd5e;
+  }
+  
+  .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+	background-color: #e44002;
+  }
+  
+  .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+	background-color: #952aff;
+  }
+  
+  .ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+	background-color: #cd3e94;
+  }
+  
+  .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+	background-color: #4c49ea;
+  }
+  
+  
+  @media only screen and (max-width: 979px) {
+	.ag-courses_item {
+	  -ms-flex-preferred-size: calc(50% - 30px);
+	  flex-basis: calc(50% - 30px);
+	}
+	.ag-courses-item_title {
+	  font-size: 24px;
+	}
+  }
+  
+  @media only screen and (max-width: 767px) {
+	.ag-format-container {
+	  width: 96%;
+	}
+  
+  }
+  @media only screen and (max-width: 639px) {
+	.ag-courses_item {
+	  -ms-flex-preferred-size: 100%;
+	  flex-basis: 100%;
+	}
+	.ag-courses-item_title {
+	  min-height: 72px;
+	  line-height: 1;
+  
+	  font-size: 24px;
+	}
+	.ag-courses-item_link {
+	  padding: 22px 40px;
+	}
+	.ag-courses-item_date-box {
+	  font-size: 16px;
+	}
+  }
+ 
+   .cyberpunk-checkbox {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background-image: linear-gradient(163deg, #f7b945 20%, #f369d5 80%);
+	border-radius: 5px;
+	background-color: transparent;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	cursor: pointer;
+  }
+  
+  .cyberpunk-checkbox:before {
+	content: "";
+	background-image: linear-gradient(163deg, #5734f4 20%, #14023e 80%);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .cyberpunk-checkbox:checked:before {
+	transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .cyberpunk-checkbox-label {
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	user-select: none;
+	display: flexbox;
+	align-items: center;
+  }
+
+  /***********************Foooterr *********************/
+   /* CSS for the footer */
+   .footer {
+	background-color: #01052d;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: absolute; /* Change to absolute positioning */
+	bottom: 0; /* Stick the footer to the bottom */
+	width: 100%; /* Make it full width */
+	height: auto; /* Allow the height to adjust based on content */
+  }
+  
+
+/* CSS for the social icons */
+.social-icons {
+	list-style: none;
+	padding: 0;
+}
+
+.social-icons li {
+	display: inline;
+	margin-right: 10px;
+	
+}
+
+.social-icons a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.report-head {
+    margin-bottom: -10px;
+	margin-right: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center text within the container */
+    /* width: 100%; Adjust the width if needed */
+}
+
+.report-head h2 {
+    color: black;
+    font-size: 1.1rem;
+    margin: 0; /* Reset margin */
+}
+
+.report-head img {
+    margin-right: 5px;
+    max-width: 100px; /* Adjust the max-width as needed */
+    /* Optionally, you can set max-height as well */
+}
+
+
+.table-faculty-details{
+	font-size: 1.15rem;
+}
+.profile_id{
+	color: white;
+}
