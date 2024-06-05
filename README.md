@@ -95,8 +95,8 @@ Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 
-Contact
-Vishal Vanjari
-Email: officialvishalvanjari@gmail.com
-GitHub: github.com/VishalVanjari
-LinkedIn: https://www.linkedin.com/in/vishal-vanjari-bb64b8228/
+Contact:
+
+    Vishal Vanjari
+    Email: officialvishalvanjari@gmail.com
+    LinkedIn: https://www.linkedin.com/in/vishal-vanjari-bb64b8228/
