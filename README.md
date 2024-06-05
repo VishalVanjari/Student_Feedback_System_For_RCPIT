@@ -24,12 +24,12 @@ Table of Contents :
        * Responsive Design
    
 3.Technologies Used
-      Frontend:
-            HTML
-            CSS
-            JavaScript
-            Bootstrap
-            
+Frontend:
+HTML
+CSS
+JavaScript
+Bootstrap
+
       Backend:
             PHP
             MySQL
