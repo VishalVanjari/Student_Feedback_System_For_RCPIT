@@ -1,5 +1,5 @@
 ﻿# Student_Feedback_System_For_RCPIT
- 
+![Example Image](1599837268.png)
 Table of Contents : 
 1. Introduction
 2. Features
@@ -85,7 +85,7 @@ Screenshots
 
 Login Page
 
-![Example Image](1599837268.png)
+
 
 
 Admin Dashboard
