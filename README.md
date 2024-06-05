@@ -13,6 +13,7 @@ Table of Contents :
 
       
 1.Introduction : 
+
           The Student Feedback System for RCPIT is a web-based application designed to collect and manage feedback from students regarding various courses and instructors. This system aims to enhance the quality of education by providing valuable insights into the teaching methods and course content.
 
 2.Features
@@ -43,6 +44,7 @@ i) Clone the repository:
     git clone https://github.com/VishalVanjari/student-feedback-system.git
     
 ii) Navigate to the project directory:
+    
     cd student-feedback-system
 
 iii) Set up the database:
