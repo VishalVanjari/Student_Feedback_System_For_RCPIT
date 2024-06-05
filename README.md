@@ -12,16 +12,16 @@ Table of Contents :
 9. Contact
 
       
-1.Introduction
+1.Introduction : 
           The Student Feedback System for RCPIT is a web-based application designed to collect and manage feedback from students regarding various courses and instructors. This system aims to enhance the quality of education by providing valuable insights into the teaching methods and course content.
 
 2.Features
-       *  User Authentication (Admin and Students)
-       * Secure Login System
-       * Feedback Submission by Students
-       * Feedback Management by Admin
-       * View Feedback Reports
-       * Responsive Design
+*  User Authentication (Admin and Students)
+* Secure Login System
+* Feedback Submission by Students
+* Feedback Management by Admin
+* View Feedback Reports
+* Responsive Design
    
 3.Technologies Used
 
